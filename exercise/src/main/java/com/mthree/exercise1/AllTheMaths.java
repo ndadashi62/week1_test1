@@ -29,10 +29,10 @@ public class AllTheMaths {
         System.out.println("\n****** Now make the computer do some harder math!");
 
         System.out.print("8043.52 minus 4.2 plus 23.0 divided by 56.0 times -76.13 is: ");
-        System.out.println((8043.52-4.2)+23.0/56.0-76.13);
+        System.out.println((8043.52-4.2)+23.0/56.0*76.13);
 
         System.out.print("11111 modulus 3 minus 67 minus 1 plus 9 is: ");
-        System.out.println(11111-3-67-1+9);
+        System.out.println(11111% 3-67-1+9);
 
         System.out.print("44 minus 22 minus 11 minus 66 minus 88 minus 76 minus 11 minus 33 is : ");
         System.out.println(44-22-11-66-88-76-11-33);
