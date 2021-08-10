@@ -7,7 +7,7 @@ package com.mthree.exercise2;
 
 /**
  *
- * @author mostafa
+ * @author nasim
  */
 public class MoreBucketsMoreFun {
     
@@ -27,6 +27,15 @@ public class MoreBucketsMoreFun {
 
         System.out.println("Uh oh, my dog ate one.");
         butterflies--;
+        
+        // this -- operator means that the dogs ate the bug
+        // because we just assigned to butterflies variable, we didn't assign 
+        //the value to bugs variable therfore he number of bugs not change when 
+        //we change the number of butterflies
+
+        
+        
+        
         System.out.println("Now there are only " + butterflies + " butterflies left.");
         System.out.println("But there are still " + bugs + " bugs left...");
         System.out.println("Wait a minute!");
