@@ -16,7 +16,7 @@ public class AllTheTrivia {
     
     String unit ; 
     String planet;
-    String volcano="l";
+    String volcano;
     String element ="x";
     Scanner scan= new Scanner (System.in);
     
@@ -25,6 +25,10 @@ public class AllTheTrivia {
     
         System.out.print("which planet is the only one that rotate clockwise");
         planet=scan.nextLine();
+        
+        
+        System.out.print("The largest volcano ever discovered in our Solar System is located on which planet");
+        volcano=scan.nextLine(); 
         
         System.out.print("wow , 1024 gigabyte is a "+volcano+"!");
         System.out.print("I didnt know that");
