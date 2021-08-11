@@ -7,7 +7,7 @@ package com.mthree.exercise2;
 
 /**
  *
- * @author mostafa
+ * @author nasim
  */
 public class MenuOfChampions {
     
