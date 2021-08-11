@@ -15,12 +15,7 @@ public class DoItBetter {
  
     
     String name ;
-    int milesRun=0;
-    int hotDogNumber=0; 
     int languageNumber =0;
-    int myNumbermile= milesRun*2 +1 ;
-    int myhotdogNumber= hotDogNumber*2+1;
-    int mylanguageNumber= languageNumber*2+1;
     
     
       
@@ -31,22 +26,29 @@ public class DoItBetter {
   name= inputReader.nextLine();
     System.out.println("hello "+ name +" .my name is Nasim");
      
- System.out.println("how many miles"+milesRun+" can you run  ");
-  Double.parseDouble(inputReader.nextLine());
+ System.out.println("how many miles can you run ? ");
+  int usermile=Integer.parseInt(inputReader.nextLine());
+    int myNumbermile= usermile*2 +1 ;
 
+  
+  
+  
   System.out.println(" wow ! but me I can run "+myNumbermile +" every day ");
   
   
   
- System.out.println(" how many hot dog "+hotDogNumber+" can you eat every day");
- Integer.parseInt(inputReader.nextLine());
+ System.out.println(" how many hot dog can you eat every day?");
+ int userHotdogNumber=Integer.parseInt(inputReader.nextLine());
+ int myhotdogNumber=userHotdogNumber*2+1;
  System.out.println(" wow ! but me I can eat "+myhotdogNumber +"  hot dog every day ");
  
  
 
- System.out.println(" how may "+languageNumber+"language you can speak");  
- Integer.parseInt(inputReader.nextLine());
-  System.out.println(" wow ! but me I can talk "+mylanguageNumber+"  language number ");
+ System.out.println(" how may language you can speak?");  
+ int userLanguageNumber= Integer.parseInt(inputReader.nextLine());
+ int myLanguageNumber=userLanguageNumber*2+1;
+
+  System.out.println(" wow ! but me I can talk "+myLanguageNumber+"  language number ");
 
 
     }

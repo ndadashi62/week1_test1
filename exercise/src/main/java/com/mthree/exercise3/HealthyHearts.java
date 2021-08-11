@@ -19,18 +19,21 @@ public class HealthyHearts {
         //they should use for exercising.
  //The maximum heart rate should be 220 - their age.
 //  The target heart rate zone is 50 - 85% of the maximum.
-int age = 0 ; 
-int maxHeartrate= 220; 
-int targetHeartRate=85*maxHeartrate/100;
-int userheartRate=220-age ;
+
 
         Scanner inputReader = new Scanner(System.in);
 
     System.out.println("Hello there!");
     System.out.println("what is your age");
-  Integer.parseInt(inputReader.nextLine());
+  int age =Integer.parseInt(inputReader.nextLine());
+  int maxHeartrate= 220-age; 
+int targetHeartRate=50-85*maxHeartrate/100;
+
   
-    System.out.println("your heart rate is "+userheartRate+"  and max of healthy heart rate is "+maxHeartrate);
+  
+    System.out.println("your maximum heart rate should be  "+maxHeartrate+" per minute ");
+     System.out.println("Your target HR Zone is "+targetHeartRate+"beats per minute.");
+
      
 
 
