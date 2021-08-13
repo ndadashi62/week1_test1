@@ -21,7 +21,12 @@ public class SpaceRustlers {
         } else{
             System.out.println("There aren't enough green guys to drive these ships!");
         }
+        
+        // if else says if aliens is graeter that spaceship then print vroom vroom , otehr wise 
+        //print thre arent enough...
 
+        //if we remove the else part so we wont see the there are not enough /... message 
+        
         if(cows == spaceships){
             System.out.println("Wow, way to plan ahead! JUST enough room for all these walking hamburgers!");
         } else if (cows > spaceships){
@@ -29,5 +34,18 @@ public class SpaceRustlers {
         } else {
             System.out.println("Too many ships! Not enough cows.");
         }
+        
+        
+       if(aliens >cows){
+       System.out.println("Hurrah, we've got the grub! Hamburger party on Alpha Centauri!\" if the aliens outnumber the cows,");
+            
+       } 
+       else {
+           System.out.println("Oh no! The herds got restless and took over! Looks like we're hamburger now!!"); 
+       }
+        
+        
     }
+    
+    
 }
