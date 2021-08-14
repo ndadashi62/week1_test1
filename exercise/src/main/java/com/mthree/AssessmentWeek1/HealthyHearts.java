@@ -20,10 +20,13 @@ public class HealthyHearts {
         System.out.println("Hello there !");
         System.out.println("What is your age ?");
 
-        int userInput = Integer.parseInt(scanner.nextLine());
-        
-        
-        
+        int userAgeInput = Integer.parseInt(scanner.nextLine());
+
+        int maxHeartrate = 220 - userAgeInput;
+        int targetHeartRate = 50 - 85 * maxHeartrate / 100;
+
+        System.out.println("your maximum heart rate should be  " + maxHeartrate + " per minute ");
+        System.out.println("Your target HR Zone is " + targetHeartRate + "beats per minute.");
 
     }
 
