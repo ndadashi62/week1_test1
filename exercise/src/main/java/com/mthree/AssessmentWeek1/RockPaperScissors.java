@@ -50,10 +50,47 @@ public class RockPaperScissors {
         opponentMove="scissor"; 
     }
     
-        
-    
     
     System.out.println("opnent move"+opponentMove);
+    
+   //4: //calculate if the user won , lost or tied 
+    if (myMove==opponentMove){
+    System.out.println("you tied !");
+    }
+    
+    else if (myMove=="rock" && opponentMove=="scissors"   
+            ||myMove== "scissors" && opponentMove=="paper"
+            ||myMove== "paper" && opponentMove=="rock"
+            )
+    { System.out.println("you won !");
+    }
+            
+            else {
+                    System.out.println("you lost !") ;
+                    }
+               
+            
+            
+            
+            
+           
+        
+   
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    }
 }
     
     }
